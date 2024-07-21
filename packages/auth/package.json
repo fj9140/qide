@@ -1,0 +1,7 @@
+{
+  "name": "@qide/auth",
+  "license":"MIT",
+  "dependencies": {
+    "@qide/util": "PEER-0.0.0-PLACEHOLDER"
+  }
+}

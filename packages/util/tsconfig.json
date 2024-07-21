@@ -1,0 +1,14 @@
+// Configuration for IDEs only.
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "..",
+    "baseUrl": ".",
+    "paths": {
+      "@qide/util/*": ["./*"],
+      "@qide/*": ["../*"]
+    }
+  },
+  "files": ["index.ts"],
+  "include": ["./**/*.ts"]
+}
