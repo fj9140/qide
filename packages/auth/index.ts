@@ -1,1 +1,2 @@
-export * from './src/index'
+export * from './token/index'
+export * from './token'

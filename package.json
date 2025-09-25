@@ -1,43 +1,7 @@
 {
   "name": "qide",
-  "version": "0.0.0",
-  "description": "Qide is a set of essential modules for money-printer",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "bash scripts/ci/build.sh",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "build":"bash scripts/ci/build.sh"
   },
-  "private": true,
-  "dependencies": {
-    "@angular/animations": "^18.1.1",
-    "@angular/common": "^18.1.1",
-    "@angular/compiler": "^18.1.1",
-    "@angular/core": "^18.1.1",
-    "@angular/forms": "^18.1.1",
-    "@angular/platform-browser": "^18.1.1",
-    "@angular/platform-browser-dynamic": "^18.1.1",
-    "@angular/router": "^18.1.1",
-    "extend": "^3.0.2",
-    "rxjs": "~7.8.0",
-    "tslib": "^2.3.0",
-    "zone.js": "~0.14.3"
-  },
-  "devDependencies": {
-    "@angular-devkit/build-angular": "^18.1.1",
-    "@angular/cli": "^18.1.1",
-    "@angular/compiler-cli": "^18.1.1",
-    "@types/extend": "^3",
-    "@types/jasmine": "~5.1.0",
-    "jasmine-core": "~5.1.0",
-    "karma": "~6.4.0",
-    "karma-chrome-launcher": "~3.2.0",
-    "karma-coverage": "~2.2.0",
-    "karma-jasmine": "~5.1.0",
-    "karma-jasmine-html-reporter": "~2.1.0",
-    "ng-packagr": "^18.1.0",
-    "typescript": "~5.4.2"
-  },
-  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+  "packageManager": "pnpm@9.12.2+sha512.22721b3a11f81661ae1ec68ce1a7b879425a1ca5b991c975b074ac220b187ce56c708fe5db69f4c962c989452eee76c82877f4ee80f474cebd61ee13461b6228"
 }
