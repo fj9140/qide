@@ -1,15 +1,45 @@
 {
   "name": "@qide/binance",
   "version": "0.0.1",
-  "main":"lib/index.js",
-  "types":"lib/index.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "files": [
     "lib/*"
   ],
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts"
+    ],
+    "rootDir": "./",
+    "testRegex": ".*\\.spec\\.ts$",
+    "transform": {
+      "^.+\\.(t|j)s$": "ts-jest"
+    },
+    "collectCoverageFrom": [
+      "**/*.(t|j)s"
+    ],
+    "coverageDirectory": "../coverage",
+    "testEnvironment": "node",
+    "moduleNameMapper": {
+      "^@packages/(.*)$": "<rootDir>/src/packages/$1",
+      "^@teks/(.*)$": "<rootDir>/src/packages/$1",
+      "^@services/(.*)$": "<rootDir>/src/services/$1"
+    }
+  },
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "test": "tsc -p tsconfig.spec.json --noEmit && jest"
   },
   "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.2.0",
+    "supertest": "^7.2.2",
+    "ts-jest": "^29.4.6",
     "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "got": "^14.6.6"
   }
 }
