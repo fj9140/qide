@@ -1,4 +1,5 @@
-import { Account as AccountAPI } from "../src/api/account/account"
+import { describe,it,beforeAll } from "vitest";
+import { Account as AccountAPI } from "../src/api/wallet/account/account"
 
 describe("Account API E2E Tests", () => {
   let accountAPI:AccountAPI

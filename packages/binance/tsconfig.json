@@ -25,7 +25,7 @@
     "noFallthroughCasesInSwitch": false,
     "outDir": "lib",
     "paths": {
-      "@qide/binance":["src"]
+      "@qide/binance": ["src"]
     }
   },
   "include": ["src/**/*"],
