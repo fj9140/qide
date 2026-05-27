@@ -2,3 +2,4 @@
 /.vitest/
 /coverage
 /lib
+/tsconfig.tsbuildinfo
