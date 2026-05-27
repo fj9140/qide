@@ -31,9 +31,6 @@ export class PlatformUtils {
             if (!gateContract) {
               return null;
             }
-            if (item.symbol === 'DISUSDT') {
-              console.log('gateContract', gateContract);
-            }
             return {
               symbol: item.symbol,
               binanceMarkPrice: item.markPrice,
