@@ -1,7 +1,5 @@
 import { describe, it, beforeAll, expect, vi } from 'vitest';
 import { Account } from './account';
-import { beforeEach } from 'node:test';
-import got from 'got';
 
 vi.mock('got', () => ({
   got: vi.fn(),

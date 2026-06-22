@@ -15,7 +15,6 @@
     "allowJs": true,
     "target": "es2021",
     "sourceMap": true,
-    "baseUrl": "./",
     "incremental": true,
     "skipLibCheck": true,
     "strictNullChecks": true,
@@ -23,9 +22,10 @@
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "noFallthroughCasesInSwitch": false,
+    "rootDir": "./",
     "outDir": "lib",
     "paths": {
-      "@qide/binance": ["src"]
+      "@qide/binance": ["./src"]
     }
   },
   "include": ["src/**/*"],
