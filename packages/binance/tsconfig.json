@@ -22,11 +22,9 @@
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "noFallthroughCasesInSwitch": false,
-    "rootDir": "./",
+    "rootDir": "./src",
     "outDir": "lib",
-    "paths": {
-      "@qide/binance": ["./src"]
-    }
+    "types": ["node"]
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "**/node_modules/*", "coverage", "doc"]

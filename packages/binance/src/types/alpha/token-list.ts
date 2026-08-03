@@ -29,6 +29,10 @@ export type AlphaAllTokenResponse={
      */
     chainId:string,
     /**
+     * Chain name
+     */
+    chainName:string,
+    /**
      * Contract address
      */
     contractAddress:string
